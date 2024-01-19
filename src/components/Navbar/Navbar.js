@@ -6,7 +6,7 @@ import { FaBars} from "react-icons/fa6";
 
 const Navbar = () => {
 
-    const [navbar, setNavbar] = useState(true);
+    const [navbar, setNavbar] = useState(false);
 
     const showSidebar = () => setNavbar(!navbar);
 

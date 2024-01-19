@@ -1,0 +1,33 @@
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    align-items: center;
+    justify-self: center;
+    padding: 10px;
+}
+
+.header_content h1 {
+    margin-bottom: 1rem;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 4rem;
+    color: var(--text-dark);
+}
+
+.section_description {
+    margin-bottom: 2rem;
+    max-width: 500px;
+    font-weight: 500;
+}
+
+.header_btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header_btn img{
+    border-radius: 10px;
+    cursor: pointer;
+}
